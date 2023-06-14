@@ -1,0 +1,67 @@
+.container {
+    margin-top: 20px;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+.img-rounded {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* autocomplete */
+
+.autocomplete-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.autocomplete-tags {
+    margin-bottom: 16px;
+}
+
+.autocomplete-tag {
+    display: inline;
+    background-color: #f5f5f5;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.autocomplete-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.autocomplete-dropdown {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.autocomplete-dropdown li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.autocomplete-dropdown li.active {
+    background-color: #000;
+    color:white;
+}
